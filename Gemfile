@@ -4,11 +4,13 @@ ruby '2.1.1'
 group :development, :test do
 		gem 'sqlite3', '1.3.8'
 		gem 'rspec-rails', '2.13.1'
+		gem 'guard-rspec', '2.5.0'
 end
 
 group :test do
 	gem 'selenium-webdriver', '2.35.1'
 	gem 'capybara', '2.1.0'
+	gem 'growl', '1.0.3'
 end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
