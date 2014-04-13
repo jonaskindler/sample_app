@@ -5,6 +5,9 @@ group :development, :test do
 		gem 'sqlite3', '1.3.8'
 		gem 'rspec-rails', '2.13.1'
 		gem 'guard-rspec', '2.5.0'
+		gem 'spork-rails', '4.0.0'
+		gem 'guard-spork', '1.5.0'
+		gem 'childprocess', '0.3.6'
 end
 
 group :test do
@@ -12,6 +15,8 @@ group :test do
 	gem 'capybara', '2.1.0'
 	gem 'growl', '1.0.3'
 end
+gem 'bootstrap-sass', '2.3.2.0'
+gem 'sprockets', '2.11.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
